@@ -45,6 +45,7 @@ header{
 h1, nav {
   flex: 1;
   outline: 1px solid purple;
+  padding: 0.3em;
 }
 
 main{
@@ -65,10 +66,10 @@ img{
   vertical-align: middle;
 }
 
+
 .pics_in_a_row {
   display: flex;
 }
-
 .project-img1 { flex: 1.4516; }
 .project-img2 { flex: 1.0603; }
 .project-img3 { flex: 1.3333; }
