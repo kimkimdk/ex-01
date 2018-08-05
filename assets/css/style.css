@@ -60,5 +60,15 @@ article{
 img{
   display: block;
   max-width: 100%;
+  height: auto;
   padding: 0.5em;
+  vertical-align: middle;
 }
+
+.pics_in_a_row {
+  display: flex;
+}
+
+.project-img1 { flex: 1.4516; }
+.project-img2 { flex: 1.0603; }
+.project-img3 { flex: 1.3333; }
