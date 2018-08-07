@@ -9,6 +9,19 @@ html{
 
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  width: calc(100vw - 4rem);
+  height: 40px;
+  margin: 1em;
+}
+
+nav {
+    flex: 1;
+}
+
+
 body {
   margin: 0;
   font-size: 1.6rem;
@@ -18,14 +31,14 @@ body {
 main {
   font-family:monospace;
   font-size: 1.6rem;
-  line-height: 1.2;
+  line-height: 1;
   margin: 1em;
   font-weight: normal;
 }
 
 h1 {
   font-size: 1.6rem;
-  line-height: 1.2;
+  line-height: 1;
   font-family: monospace;
   font-weight: normal;
 }
@@ -74,7 +87,7 @@ img{
 section {
   position: fixed;
   width: calc(50% - 2em);
-  top: 0;
+  top: 50px;
   left: 0;
   overflow-y: auto;
   height: 100vh;
