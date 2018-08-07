@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 10px;
+
+}
+
+body {
+  margin: 0;
+  font-size: 1.6rem;
+
+}
+
+main {
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh; */
+  font-family: sans-serif;
+  font-size: 4rem;
+  line-height: 1;
+  margin: 1em;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+/* double-scrool  */
+section {
+  position: fixed;
+  width: calc(50% - 2em);
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  height: 100vh;
+  padding: 1em;
+}
+
+#right {
+  left: 50%;
+}
+
+p {
+  color: black;
+}
+
+p + p {
+  margin-left:5em;
+  color: red;
+}
+
+
+/* p:nth-of-type(3){
+  margin-left: 2em;
+  color: blue;
+} */
+
+.blue, span{
+  color: green !important;
+  text-transform: uppercase;
+}
+
+.yellow {
+  color: yellow !important;
+}
+
+.fixed {
+  position: fixed;
+}
+
+/* place the padding at the bottom */
+p:last-of-type{
+  padding-bottom: 10rem;
+}
+
+}
+
+/* @media must always sit in the bottom of your css */
+@media(max-width: 670px) {
+  main {
+    /* flex-direction: column; */
+  }
+  article {
+    width: 100%;
+    flex: 1;
+  }
+/* make the double scrool into one coloum on mobile */
+  section {
+    position: static;
+    width: 100%;
+    padding: 0;
+    overflow: visible;
+    height: auto;
+  }
+  #right {
+    left: 0;
+  }
+
+}
