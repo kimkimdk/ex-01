@@ -12,8 +12,9 @@ cursor: url(https://files.cargocollective.com/644783/kimkim_cursor_green2.cur) 1
 
 html{
   font-size: 10px;
-  background-color: white;
   margin: 1em 4em 4em 4em;
+  background-color: inherit;
+  z-index: 1;
 }
 
 header {
@@ -70,10 +71,9 @@ h1 {
 h2 {
   font-family: monospace;
   letter-spacing: 0.1px;
-  font-size: 1.9rem;
+  font-size: 2.5rem;
   line-height: 1.1;
-  font-weight: bold;
-  /* text-transform: uppercase; */
+  font-weight: normal;
   color: black;
 }
 
@@ -131,7 +131,7 @@ img{
 /* double-scrool  */
 section {
   position: fixed;
-  width: calc(60%);
+  width: calc(55%);
   top: 75px;
   left: 0;
   overflow-y: auto;
@@ -141,9 +141,8 @@ section {
 }
 
 #right {
-  left: calc(40% - 2.5em);
+  left: calc(45% - 2.5em);
   padding: 0em 2.5em 0em 0em;
-
   }
 
 /* @media [mobile] must always sit in the bottom of your css */
