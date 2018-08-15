@@ -67,7 +67,7 @@ h1 {
 }
 
 h2 {
-  font-family: monospace;
+  font-family: 'Cutive Mono', monospace;
   letter-spacing: 0.1px;
   font-size: 2.5rem;
   line-height: 1.1;
@@ -125,6 +125,9 @@ img{
   vertical-align: middle;
 }
 
+.index.html {
+  background-color: lightgreen;
+}
 
 /* double-scrool  */
 section {
