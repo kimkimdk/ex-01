@@ -66,6 +66,11 @@ h2 {
   line-height: 1.1;
   font-weight: normal;
   color: black;
+  overflow: hidden;
+  /* project menu fixed width */
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
 }
 
 h2:hover {
@@ -158,8 +163,9 @@ article#one {
   /* background: red; */
   flex: 1;
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   padding: 0.7em 1em 2em 1em;
+  /* border-right: 1px solid lightgreen; */
 
 }
 
@@ -167,7 +173,8 @@ article#two {
   /* background: blue; */
   flex: 2;
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
+  height: 100%;
   padding: 0.7em 1em 2em 1em;
 }
 
