@@ -59,11 +59,19 @@ h1 {
   font-weight: normal;
 }
 
+/* h1:hover {
+  letter-spacing: .06rem
+} */
+
+a#collaborator:hover {
+  letter-spacing: .03rem
+}
+
 h2 {
   font-family: 'Cutive Mono', monospace;
   letter-spacing: 0.1px;
-  font-size: 2.5rem;
-  line-height: 1.1;
+  font-size: 2.4rem;
+  line-height: 1;
   font-weight: normal;
   color: black;
   overflow: hidden;
@@ -130,6 +138,8 @@ img {
 
 #imgkimdrawing {
   padding-top: 0 !important;
+  white-space: nowrap;
+  width: 100%;
 }
 
 .sidebyside {
