@@ -147,7 +147,6 @@ img {
   justify-content: center;
   align-items: center;
   align-items: space-between;
-
 }
 
 .video-responsive{
@@ -164,7 +163,7 @@ img {
     position:absolute;
 }
 
-.vhsize {
+.vhsize-poster {
   height: 100vh;
   width: auto;
 }
