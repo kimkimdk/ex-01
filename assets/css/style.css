@@ -70,7 +70,7 @@ a#collaborator:hover {
 h2 {
   font-family: 'Cutive Mono', monospace;
   letter-spacing: 0.1px;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   line-height: 1;
   font-weight: normal;
   color: black;
@@ -92,6 +92,25 @@ h3 {
   font-family: serif;
   font-weight: normal
 }
+
+/* h4 {
+  font-family: 'Cutive Mono', monospace;
+  letter-spacing: 0.1px;
+  font-size: 2.4rem;
+  line-height: 1;
+  font-weight: normal;
+  color: black;
+  overflow: hidden;
+  /* project menu fixed width */
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+h4:hover {
+  /* opacity: 0.2; */
+  font-style: italic;
+} */
 
 /* custom underline */
 .customunderline {
